@@ -101,9 +101,6 @@ def tobs():
     # Return a JSON list of temperature observations (TOBS) for the previous year
     return jsonify(TOBS)
 
-# @app.route("/api/v1.0/justice-league/superhero/<superhero>")
-# def justice_league_by_superhero__name(superhero):
-
 @app.route("/api/v1.0/start_date/<start_date>")
 def start_date(start_date):
 # Return a JSON list of the minimum temperature, the average temperature, 
